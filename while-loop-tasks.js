@@ -28,3 +28,22 @@ while(even<= 98){
 
 // Problem-4
 
+// let num = 81;
+// let sum = 0;
+// while(num<= 131){
+//   if(num%2 === 1){
+//      sum+=num;
+//   }
+//   console.log('sum of odd numbers', sum);
+//   num++;
+// }
+
+// Problem-5
+let num = 206;
+let sum = 0;
+while(num<=311){
+    if(num%2===0){
+        console.log('sum of even numbers', sum+=num);
+    }
+    num++;
+}
