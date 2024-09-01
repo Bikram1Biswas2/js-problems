@@ -39,11 +39,22 @@ while(even<= 98){
 // }
 
 // Problem-5
-let num = 206;
-let sum = 0;
-while(num<=311){
-    if(num%2===0){
-        console.log('sum of even numbers', sum+=num);
-    }
-    num++;
+// let num = 206;
+// let sum = 0;
+// while(num<=311){
+//     if(num%2===0){
+//         console.log('sum of even numbers', sum+=num);
+//     }
+//     num++;
+// }
+
+// Problem-6
+
+let num= 5;
+let multi = 1;
+
+while(multi <= 10){
+    console.log(`${num}*${multi} = ${num * multi}`);
+    multi++;
 }
+
