@@ -58,3 +58,11 @@ while(multi <= 10){
     multi++;
 }
 
+// Problem-6
+
+let countDown = 21;
+
+while(countDown>=15){
+    console.log(countDown);
+    countDown--;
+}
